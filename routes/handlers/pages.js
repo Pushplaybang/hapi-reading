@@ -64,8 +64,6 @@ handlers.results = (request, reply) => {
       data.counts = TextStats.stats(content);
       data.analysis = Readability.stats(data.counts, content);
 
-      console.log(data);
-
       return reply.view('results', data);
     }).catch((err) => {
       console.log(err);
