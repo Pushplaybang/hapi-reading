@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  <section class="main">
+
+    <h1>Results</h1>
+    <p>display the results</p>
+
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/app">App</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="#">Github</a></li>
+    </ul>
+
+    <article class="stats">
+
+      <h3>Basic Stats</h3>
+
+      <ul class="stats basic-stats">
+        <li>URL: <strong>{{url.href}}</strong></li>
+        <li>Sentences: <strong>{{counts.sentence}}</strong></li>
+        <li>Words: <strong>{{counts.word}}</strong></li>
+        <li>Syllables: <strong>{{counts.syllable}}</strong></li>
+        <li>Characters: <strong>{{counts.character}}</strong></li>
+        <li>Average Characters Per Word: <strong>{{counts.averageCharsPerWord}}</strong></li>
+      </ul>
+
+      <h3> Analysis</h3>
+
+      <ul class="stats analysis">
+        <li>Average Grade Level: <strong>{{analysis.averageGradeLevel}}</strong> </li>
+        <li>Sentiment Score: <strong>{{analysis.sentiment.score}}</strong></li>
+        <li>Reading Time: <strong>{{analysis.readingTime.text}}</strong> </li>
+        <li>Flesch Kincaid: <strong>{{analysis.fleschKincaid}}</strong> </li>
+        <li>Coleman Liau: <strong>{{analysis.colemanLiau}}</strong> </li>
+        <li>Automated Readability: <strong>{{analysis.automatedReadability}}</strong> </li>
+        <li>Sentiment Positive Words: <strong>{{analysis.sentiment.positiveCount}}</strong></li>
+        <li>Sentiment Negative Words: <strong>{{analysis.sentiment.negativeCount}}</strong></li>
+      </ul>
+    </article>
+
+    <p>&copy; 2016 Paul van Zyl. find the code on <a href="#">Github</a>.  Built with <a href="http://hapijs.com/">Hapi JS</a></p>
+
+  </section>
+</body>
+</html>
