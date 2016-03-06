@@ -1,0 +1,43 @@
+{
+  "name": "Read-hapi",
+  "version": "1.0.0",
+  "description": "learning the hapi framework",
+  "repository": "https://github.com/Pushplaybang/learning-hapi.git",
+  "main": "server.js",
+  "dependencies": {
+    "automated-readability": "^0.1.0",
+    "blipp": "^2.3.0",
+    "boom": "^3.1.2",
+    "cheerio": "^0.20.0",
+    "coleman-liau": "^0.1.0",
+    "flesch-kincaid": "^0.1.0",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "joi": "^8.0.3",
+    "lets-get-meta": "^1.0.0",
+    "no-cliches": "^0.1.0",
+    "reading-time": "^1.0.2",
+    "request-promise": "^2.0.1",
+    "sanitize-html": "^1.11.3",
+    "sentiment": "^1.0.6",
+    "striptags": "^2.1.1",
+    "syllable": "^0.1.4",
+    "text-stats": "0.0.3",
+    "valid-url": "^1.0.9",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul van Zyl",
+  "license": "ISC"
+}
