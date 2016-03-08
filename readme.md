@@ -1,5 +1,6 @@
 
-
+## Hapi Reading
+a tiny app that evaluates the content of a page, given a URL it provides a average reading grade (years of formal education required to fully comprehend the content) and sentiment score.
 
 
 ## Readability
@@ -13,7 +14,7 @@ There are a number of common and popular readabiliy algorythms that I'm using he
 
 ### Notes
 * Text Analysis Inspired by [Text Stats](https://www.npmjs.com/package/text-stats) & [TextStatistics](https://github.com/cgiffard/TextStatistics.js)
-* 
+* Built with [Hapi JS](http://hapijs.com/)
 
 
 ### License 
