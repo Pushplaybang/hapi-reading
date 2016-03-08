@@ -24,6 +24,7 @@ const server = new Hapi.Server({
   },
 });
 
+
 /* Set the connection details */
 server.connection({
   host: 'localhost',
@@ -53,9 +54,10 @@ server.register([
 
   // setup views using vision
   server.views({
-    engines: { hbs: HandleBars },
+    engines: { html: HandleBars },
     relativeTo: __dirname,
     path: 'views',
+    partialsPath: 'views/partials',
   });
 
   /* Request Response Life Cycle Events */
