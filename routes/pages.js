@@ -15,7 +15,7 @@ routes.assets = {
 routes.home = {
   method: 'GET',
   path: '/',
-  handler: Handlers.home,
+  handler: Handlers.app,
 };
 
 /*  About Page */
